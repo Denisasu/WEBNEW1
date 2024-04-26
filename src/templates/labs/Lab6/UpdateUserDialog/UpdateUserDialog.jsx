@@ -101,4 +101,4 @@ UpdateUserDialog.propTypes = {
   onUpdatedSuccessfully: PropTypes.func
 }
 
-export default UpdateUserDialog
+export default UpdateUserDialog 
