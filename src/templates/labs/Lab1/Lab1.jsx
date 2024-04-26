@@ -45,7 +45,7 @@ const Lab1 = () => {
         className="lab1-template__button" 
         type="button"                    
       >
-        increment
+        Click me
       </button>
 
       <span className="lab1-template__counter">{ counter }</span>
@@ -55,7 +55,7 @@ const Lab1 = () => {
         className="lab1-template__button" 
         type="button"                     
       >
-        decrement
+        Click me 2
       </button>
 
       <form className="lab1-template__form" onSubmit={onSubmitForm}>

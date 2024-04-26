@@ -9,6 +9,7 @@ import ErrorPage from './templates/ErrorPage.jsx'
 import Lab1 from './templates/labs/Lab1'
 import Lab2 from './templates/labs/Lab2'
 import Lab4 from './templates/labs/Lab4'
+import Lab5 from './templates/labs/Lab5'
 import Main from './templates/pages/MainPage.jsx'
 import AboutMe from './templates/pages/AboutMe.jsx'
 import store from './store.js'
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "lab/4",
         element: <Lab4 />,
+      },
+      {
+        path: "lab/5",
+        element: <Lab5 />,
       },
     ],
   },
